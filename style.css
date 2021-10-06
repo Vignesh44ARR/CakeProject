@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.item{
+    width: 170px;
+    height: 30px;
+    border: 1px solid red;
+        }
+        #buy{
+            background-color: green;
+            
+        }
+    
+        .Cake{
+            background-position: center;
+            margin:25%;
+           
+        }
+       .foot button{
+           
+           padding: 5px;
+           background-color:blueviolet;
+           color:white;
+           font-style: bold;
+           width: 100px;
+           height: 35px;
+           margin-left: 10rem;
+           border-radius: 10px;
+       } 
+    
+       .foot{
+           padding-top: 30px;
+           display: flex;
+           height: 100px;
+           justify-content:flex-start;
+        
+           background-color: brown;
+    
+       }
+     
+       .price_list{
+           background-image:url("./assets/list_template.png");
+           background-repeat: no-repeat;
+           color:white;
+           font-weight: bold;
+           padding: 90px;
+           font-size: 19px;
+           background-position: center;
+           text-align: center;
+       }
+    
+     
+       .price_list2{
+           background-image:url("./assets/list_template.png");
+           background-repeat: no-repeat;
+           color:white;
+           font-size: 19px;
+           font-weight: bold;
+           padding: 90px;
+           background-position: center;
+           text-align: center;
+       }
+     #logo{
+    
+        position: absolute;
+        z-index: 1;
+        top: 22px;
+        left: 46%;
+        border-radius: 50%;
+        border: 1px solid;
+        background-color: black;
+    }    
+    .top{
+       
+        justify-content: center;
+        height: 100px;
+        background-color: brown;
+    
+    }
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            height: 75vh;
+            background-color: blueviolet;
+            align-items: center;
+    
+            
+        }
+    
+        #Cakeitems{
+            text-align: center;
+            
+            }
+    #Cakeitems div{
+                border-radius: 8px;
+  }
+       
+    
+    
+    #Cho
+    {
+        margin-left:80px;
+        width: 12vh;
+        background-color: rgb(231, 151, 3);
+        
+    }
+    
+    
+    #Str
+    {
+        margin-left:60px;
+        width: 17vh;
+        background-color: rgb(224, 32, 32);
+    }
+    #But
+    {
+        margin-left:40px;
+        width: 22vh;
+        background-color: rgb(255, 255, 255);
+    }
+    #Van
+    {
+        margin-left:20px;
+        width: 27vh;
+        background-color: rgb(255, 255, 0)
+    }
+    #Red
+    {
+        width: 32vh;
+        background-color: rgb(248, 10, 169);
+    }
+
+/* Fill your code*/
+
+
+
